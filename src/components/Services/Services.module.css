@@ -1,0 +1,21 @@
+.Services{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+section img{
+    width: 70px;
+}
+
+section{
+    display: grid;
+    justify-items: center;
+    align-self: center;
+    color: white;
+    text-align: center;
+}
+
+section p{
+    width: 200px;
+}

@@ -1,0 +1,174 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.App-header {
+  background-color: #2B2B2B;
+  height: 3500px;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.Login {
+  background-color: #BFAFF2;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.Login:hover {
+  background-color: #a48af8;
+  font-weight: bold;
+}
+
+.Signup {
+  background-color: transparent;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+}
+
+.Signup:hover {
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 90vw;
+  align-items: center;
+  height: 100px;
+  gap: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  position: relative;
+  z-index: 1;
+  left: 60px;
+}
+
+nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  width: 400px;
+}
+
+.hero-container p {
+  color: rgb(176, 176, 176);
+  width: 400px;
+}
+
+.getstarted {
+  width: 160px;
+  height: 50px;
+  background-color: #F8D57E;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  gap: 420px;
+}
+
+.hero-container img {
+  border: 11px solid #525252;
+  border-radius: 10px;
+}
+
+.texts {
+  display: grid;
+}
+
+.images {
+  display: grid;
+  justify-content: center;
+  gap: 500px;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  margin-top: 100px;
+  width: 100vw;
+}
+
+.footer-hero {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-hero-text {
+  color: white;
+}
+
+.questions {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.contact-text {
+  width: 400px;
+  font-size: large;
+}
+
+.last-footer-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #F8D57E; /* Use the yellow color */
+  border-radius: 4px;
+  width: 300px; /* Adjust width as needed */
+  background-color: #2B2B2B; /* Use the dark background color */
+  color: white; /* Use white color for text */
+}
+
+.contact-form{
+  display: flex;
+  margin-top: 120px;
+}
+
+.contact-form button {
+  background-color: #BFAFF2; /* Use the light purple color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px; /* Adjust width as needed */
+}
+
+.contact-form button:hover {
+  background-color: #a48af8; /* Use the darker shade of purple */
+}
